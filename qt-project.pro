@@ -20,6 +20,7 @@ SOURCES += \
     uiadministrateur.cpp \
     uiauthentification.cpp \
     uiformateur.cpp \
+    uiresponsable.cpp \
     user.cpp \
     usermodel.cpp
 
@@ -31,6 +32,7 @@ HEADERS += \
     uiadministrateur.h \
     uiauthentification.h \
     uiformateur.hpp \
+    uiresponsable.h \
     user.h \
     usermodel.h
 
@@ -38,7 +40,8 @@ FORMS += \
     UIAdministrateur.ui \
     UIAuthentification.ui \
     mainwindow.ui \
-    uiformateur.ui
+    uiformateur.ui \
+    uiresponsable.ui
 
 TRANSLATIONS += \
     qt-project_fr_FR.ts
